@@ -69,3 +69,105 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# Lyrics" 
+
+MUSIC LYRICS 
+
+ 
+
+Wireframe 
+
+ 
+
+ 
+
+Functional documentation 
+
+The Lyrics webpage is a one-page website presenting some music lyrics. 
+
+It has three main parts which are  
+
+The Top part which has a 
+
+A centered title on the top 
+
+An inspiring paragraph bellow the title; 
+
+A call-to-action sentence below the paragraph. 
+
+The Middle part has many lines of four lyrics video. Every music frame has: 
+
+A centered title 
+
+A sentence below the title; 
+
+A video below the sentence. 
+
+The last part is the Footer, a 10vh rectangular frame with the left-top-align short sentence. 
+
+Technical documentation 
+
+ 
+
+Libraries 
+
+The following libraries had been used in other to create the says webpage; 
+
+- React Dom/client: It enables react to interact with browser DOM. 
+
+- React: Handle the rendering of react components. 
+
+- React icons: This library allows the insertion of icons on the webpage. 
+
+ 
+
+ 
+
+Code color 
+
+ 
+
+Title: background-image: linear-gradient (to right, #fff, #b3f7f7, #f3c4c4); 
+
+ 
+
+Footer: #323131; 
+
+ 
+
+Webpage background color: #fff 
+
+ 
+
+Dimensions  
+
+Align Items Centered Header max width 1200px, height:100px; 
+
+Footer: max width 1200px, height:50vh; 
+
+Body: max width 1200px, height:90vh; 
+
+ 
+
+ 
+
+Components 
+
+All components are simple functions returning JSX elements. 
+
+TopPage 
+
+Lyrics 
+
+Footer 
+
+Features 
+
+Discover artist 
+
+Discover songs 
+
+Redirect the user to YouTube 
+
+ 
+
+ 
