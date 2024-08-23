@@ -1,38 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Foldit:wght@100..900&family=Ga+Maamli&family=Jersey+10&family=Kalnia+Glaze:wght@100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=New+Amsterdam&family=PT+Sans+Narrow:wght@400;700&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+FR+Moderne:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
 .App {
+ 
+  margin: auto;
   text-align: center;
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+  font-size: 1rem;
+}
+.intro-container{
+background-color: #fff;
+margin: 3rem 20%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.intro-container span {
+  margin: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+ align-items: center;
+  
+}
+.lyric-container{
+  
+  align-items: center;
+  align-items: center;
+}
+.ratio-ratio-21x21{
+  margin: 0 12%;
+}
+.lyric-container span{
+  font-weight: 600;
+  font-family: 'Ga Maamli';
+  margin: 0.7rem;
+}
+.lyric-container p{
+  font-family: 'Playwrite Deutschland Grundschrift';
+}
+.footer-section{
+  background-color: #323131;
+  font-family: 'Ga Maamli';
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  color: #fff;
+  height: 10vh;
+  margin: auto;
+}
+.words{
+  font-display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  align-items: last baseline;
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.media {
+  align-items:baseline;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
 }
